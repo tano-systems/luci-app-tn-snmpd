@@ -1,0 +1,255 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: luasrc/view/snmpd-tn/footer.htm:9
+msgid ""
+"&copy; 2018&ndash;2019, Tano Systems, Anton Kikin &lt;<a href=\"mailto:a."
+"kikin@tano-systems.com\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:336
+msgid "AES"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:160
+msgid "AgentX socket path"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:315
+msgid "Allow write"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:387
+msgid "Community"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:642
+msgid "Contact"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:337
+msgid "DES"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:39
+msgid "Download"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:161
+msgid "Empty for disable AgentX"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:47
+msgid "Enable SNMP service"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:360
+msgid "Enable SNMP trap functionality"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:359
+msgid "Enable SNMP traps"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:21
+msgid "Global"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:374
+msgid "Host to transfer SNMP trap traffic to (hostname or IP address)"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:373
+msgid "Host/IP"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:58
+msgid "IP version"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:61
+msgid "IPv4 and IPv6"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:649
+msgid "Location"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:323
+msgid "MD5"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:38
+msgid "MIB download"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:635
+msgid "Name"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:14
+msgid "On this page you may configure SNMP agent settings."
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:59
+msgid "Only IPv4"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:60
+msgid "Only IPv6"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:148
+msgid "Only SNMPv3"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:87
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:380
+msgid "Port"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:381
+msgid "Port for trap's host"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:258
+msgid "Read community"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:267
+msgid "Read community source"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:48
+msgid "Run SNMP service on system's startup"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:322
+msgid "SHA"
+msgstr ""
+
+#: luasrc/controller/snmpd-tn.lua:9
+msgid "SNMP"
+msgstr ""
+
+#: luasrc/view/snmpd-tn/footer.htm:8
+msgid "SNMP LuCI application (version %s)"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:13
+msgid "SNMP Settings"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:366
+msgid "SNMP traps version"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:141
+msgid "SNMP version"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:367
+msgid "SNMP version used for sending traps"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:142
+msgid "SNMP version used to monitor and control the device"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:146
+msgid "SNMPv1 and SNMPv2c"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:147
+msgid "SNMPv1, SNMPv2c and SNMPv3"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:22
+msgid "SNMPv1/SNMPv2c"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:23
+msgid "SNMPv3"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:328
+msgid "SNMPv3 authentication passphrase"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:320
+msgid "SNMPv3 authentication type"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:342
+msgid "SNMPv3 encryption passphrase"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:334
+msgid "SNMPv3 encryption type"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:309
+msgid "SNMPv3 username"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:310
+msgid "Set username to access SNMP"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:116
+msgid "Specified port number is already in use"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:25
+msgid "System"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:643
+msgid "System contact for the agent"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:650
+msgid "System location for the agent"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:636
+msgid "System name for the agent"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:388
+msgid "The SNMP community for traps"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:24
+msgid "Traps"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:268
+msgid ""
+"Trusted source for SNMP read community access (hostname, IP/MASK, IP/BITS or "
+"IPv6 equivalents)"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:291
+msgid ""
+"Trusted source for SNMP write community access (hostname, IP/MASK, IP/BITS "
+"or IPv6 equivalents)"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:281
+msgid "Write community"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:290
+msgid "Write community source"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:269
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:292
+msgid "any (default)"
+msgstr ""
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:321
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:335
+msgid "none"
+msgstr ""

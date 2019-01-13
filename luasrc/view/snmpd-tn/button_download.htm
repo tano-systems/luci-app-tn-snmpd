@@ -1,0 +1,12 @@
+<%#
+ Copyright (c) 2018-2019, Tano Systems. All Rights Reserved.
+ Anton Kikin <a.kikin@tano-systems.com>
+-%>
+
+<%+cbi/valueheader%>
+	<% if self:cfgvalue(section) ~= false then %>
+		<a class="cbi-button cbi-button-<%=self.inputstyle or "button" %>" <%= attr("href", self.href) .. attr("name", cbid) .. attr("id", cbid)%>><%= self.inputtitle or self.title%></a>
+	<% else %>
+		-
+	<% end %>
+<%+cbi/valuefooter%>

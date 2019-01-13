@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: luci-app-snmpd-tn\n"
+"PO-Revision-Date: 2019-01-22 21:47+0300\n"
+"Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.2\n"
+
+#: luasrc/view/snmpd-tn/footer.htm:9
+msgid ""
+"&copy; 2018&ndash;2019, Tano Systems, Anton Kikin &lt;<a href=\"mailto:a."
+"kikin@tano-systems.com\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
+msgstr ""
+"&copy; 2018&ndash;2019, Tano Systems, Антон Кикин &lt;<a href=\"mailto:a."
+"kikin@tano-systems.com\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:336
+msgid "AES"
+msgstr "AES"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:160
+msgid "AgentX socket path"
+msgstr "Путь к сокету AgentX"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:315
+msgid "Allow write"
+msgstr "Разрешить запись"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:387
+msgid "Community"
+msgstr "SNMP сообщество"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:642
+msgid "Contact"
+msgstr "Контакты"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:337
+msgid "DES"
+msgstr "DES"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:39
+msgid "Download"
+msgstr "Скачать"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:161
+msgid "Empty for disable AgentX"
+msgstr "Если не задано, AgentX будет отключен"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:47
+msgid "Enable SNMP service"
+msgstr "Включить службу SNMP"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:360
+msgid "Enable SNMP trap functionality"
+msgstr "Включить функционал SNMP трапов"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:359
+msgid "Enable SNMP traps"
+msgstr "Включить SNMP трапы"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:21
+msgid "Global"
+msgstr "Глобальные"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:374
+msgid "Host to transfer SNMP trap traffic to (hostname or IP address)"
+msgstr "Адрес хоста назначения для отправки трапов (имя хоста или IP-адрес)"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:373
+msgid "Host/IP"
+msgstr "Хост/IP-адрес"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:58
+msgid "IP version"
+msgstr "Версия IP-протокола"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:61
+msgid "IPv4 and IPv6"
+msgstr "IPv4 и IPv6"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:649
+msgid "Location"
+msgstr "Расположение"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:323
+msgid "MD5"
+msgstr "MD5"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:38
+msgid "MIB download"
+msgstr "Скачать MIB файл"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:635
+msgid "Name"
+msgstr "Имя"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:14
+msgid "On this page you may configure SNMP agent settings."
+msgstr "Да данной странице можно выполнить конфигурацию SNMP агента."
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:59
+msgid "Only IPv4"
+msgstr "Только IPv4"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:60
+msgid "Only IPv6"
+msgstr "Только IPv6"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:148
+msgid "Only SNMPv3"
+msgstr "Только SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:87
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:380
+msgid "Port"
+msgstr "Порт"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:381
+msgid "Port for trap's host"
+msgstr "Порт для отправки трапов"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:258
+msgid "Read community"
+msgstr "SNMP сообщество для чтения"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:267
+msgid "Read community source"
+msgstr "Источник SNMP сообщества для чтения"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:48
+msgid "Run SNMP service on system's startup"
+msgstr "Запускать службу SNMP при запуске системы"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:322
+msgid "SHA"
+msgstr "SHA"
+
+#: luasrc/controller/snmpd-tn.lua:9
+msgid "SNMP"
+msgstr "SNMP"
+
+#: luasrc/view/snmpd-tn/footer.htm:8
+msgid "SNMP LuCI application (version %s)"
+msgstr "LuCI приложение настройки SNMP (версия %s)"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:13
+msgid "SNMP Settings"
+msgstr "Настройки SNMP"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:366
+msgid "SNMP traps version"
+msgstr "Версия SNMP трапов"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:141
+msgid "SNMP version"
+msgstr "Версия SNMP"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:367
+msgid "SNMP version used for sending traps"
+msgstr "Используемая версия SNMP для отправки трапов"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:142
+msgid "SNMP version used to monitor and control the device"
+msgstr "Используемая версия SNMP для мониторинга и управления устройством"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:146
+msgid "SNMPv1 and SNMPv2c"
+msgstr "SNMPv1 и SNMPv2c"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:147
+msgid "SNMPv1, SNMPv2c and SNMPv3"
+msgstr "SNMPv1, SNMPv2c и SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:22
+msgid "SNMPv1/SNMPv2c"
+msgstr "SNMPv1/SNMPv2c"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:23
+msgid "SNMPv3"
+msgstr "SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:328
+msgid "SNMPv3 authentication passphrase"
+msgstr "Пароль аутентификации SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:320
+msgid "SNMPv3 authentication type"
+msgstr "Тип аутентификации SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:342
+msgid "SNMPv3 encryption passphrase"
+msgstr "Пароль шифрования SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:334
+msgid "SNMPv3 encryption type"
+msgstr "Тип шифрования SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:309
+msgid "SNMPv3 username"
+msgstr "Имя пользователя SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:310
+msgid "Set username to access SNMP"
+msgstr "Имя пользователя SNMPv3"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:116
+msgid "Specified port number is already in use"
+msgstr "Указанный номер порта уже используется"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:25
+msgid "System"
+msgstr "Система"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:643
+msgid "System contact for the agent"
+msgstr "Контакт системы для данного агента"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:650
+msgid "System location for the agent"
+msgstr "Расположение системы для данного агента"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:636
+msgid "System name for the agent"
+msgstr "Имя системы для данного агента"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:388
+msgid "The SNMP community for traps"
+msgstr "SNMP сообщество для трапов"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:24
+msgid "Traps"
+msgstr "Трапы"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:268
+msgid ""
+"Trusted source for SNMP read community access (hostname, IP/MASK, IP/BITS or "
+"IPv6 equivalents)"
+msgstr ""
+"Доверенный источник SNMP сообщества для чтения (имя хоста, IP-адрес/маска, "
+"IP-адрес/биты или эквиваленты для IPv6)"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:291
+msgid ""
+"Trusted source for SNMP write community access (hostname, IP/MASK, IP/BITS "
+"or IPv6 equivalents)"
+msgstr ""
+"Доверенный источник SNMP сообщества для записи (имя хоста, IP-адрес/маска, "
+"IP-адрес/биты или эквиваленты для IPv6)"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:281
+msgid "Write community"
+msgstr "SNMP сообщество для записи"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:290
+msgid "Write community source"
+msgstr "Источник SNMP сообщества для записи"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:269
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:292
+msgid "any (default)"
+msgstr "любой (default)"
+
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:321
+#: luasrc/model/cbi/snmpd-tn/snmpd.lua:335
+msgid "none"
+msgstr "нет"

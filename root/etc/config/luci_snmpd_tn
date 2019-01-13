@@ -1,0 +1,2 @@
+config snmpd_tn 'snmpd_tn'
+	option download_mib '/usr/share/snmp/mibs/OWEN-PLC210-MIB.txt'
