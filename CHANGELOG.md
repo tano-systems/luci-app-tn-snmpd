@@ -8,6 +8,9 @@ All dates in this document are in `DD.MM.YYYY` format.
 
 ## [Unreleased]
 
+### Fixed
+- Minor fixes for Russian translation.
+
 ### Changed
 - Moved some functions from CBI model code to module 'luci.tools.snmpd-tn'.
 

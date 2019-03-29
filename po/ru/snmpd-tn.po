@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-snmpd-tn\n"
-"PO-Revision-Date: 2019-01-22 21:47+0300\n"
+"PO-Revision-Date: 2019-03-29 23:09+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
 "Language-Team: none\n"
 "Language: ru\n"
@@ -39,7 +39,7 @@ msgstr "SNMP сообщество"
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:642
 msgid "Contact"
-msgstr "Контакты"
+msgstr "Контакт"
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:337
 msgid "DES"
@@ -219,16 +219,16 @@ msgid "System"
 msgstr "Система"
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:643
-msgid "System contact for the agent"
-msgstr "Контакт системы для данного агента"
+msgid "System contact"
+msgstr "Контакт системы"
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:650
-msgid "System location for the agent"
-msgstr "Расположение системы для данного агента"
+msgid "System location"
+msgstr "Расположение системы"
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:636
-msgid "System name for the agent"
-msgstr "Имя системы для данного агента"
+msgid "System name"
+msgstr "Имя системы"
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:388
 msgid "The SNMP community for traps"

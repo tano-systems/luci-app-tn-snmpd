@@ -205,15 +205,15 @@ msgid "System"
 msgstr ""
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:643
-msgid "System contact for the agent"
+msgid "System contact"
 msgstr ""
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:650
-msgid "System location for the agent"
+msgid "System location"
 msgstr ""
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:636
-msgid "System name for the agent"
+msgid "System name"
 msgstr ""
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:388

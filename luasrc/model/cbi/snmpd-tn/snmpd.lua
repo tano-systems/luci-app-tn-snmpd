@@ -394,21 +394,21 @@ end
 
 o = s:taboption("system", Value, "sysName",
 	translate("Name"),
-	translate("System name for the agent"))
+	translate("System name"))
 o.cfgvalue = snmpd_sys_cfgvalue
 o.write = snmpd_sys_write
 o.remove = snmpd_sys_remove
 
 o = s:taboption("system", Value, "sysContact",
 	translate("Contact"),
-	translate("System contact for the agent"))
+	translate("System contact"))
 o.cfgvalue = snmpd_sys_cfgvalue
 o.write = snmpd_sys_write
 o.remove = snmpd_sys_remove
 
 o = s:taboption("system", Value, "sysLocation",
 	translate("Location"),
-	translate("System location for the agent"))
+	translate("System location"))
 o.cfgvalue = snmpd_sys_cfgvalue
 o.write = snmpd_sys_write
 o.remove = snmpd_sys_remove
