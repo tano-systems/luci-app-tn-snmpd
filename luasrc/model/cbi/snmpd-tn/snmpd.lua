@@ -60,6 +60,7 @@ local ip_protocol = s:taboption("global", ListValue, "ip_protocol", translate("I
 ip_protocol:value("ipv4", translate("Only IPv4"))
 ip_protocol:value("ipv6", translate("Only IPv6"))
 ip_protocol:value("ipv4/ipv6", translate("IPv4 and IPv6"))
+ip_protocol.forcewrite = true
 ip_protocol.default = "ipv4"
 ip_protocol.rmempty = false
 
