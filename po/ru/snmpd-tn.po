@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-snmpd-tn\n"
-"PO-Revision-Date: 2019-03-29 23:09+0300\n"
+"PO-Revision-Date: 2019-06-05 22:22+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
 "Language-Team: none\n"
 "Language: ru\n"
@@ -103,7 +103,7 @@ msgstr "Имя"
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:14
 msgid "On this page you may configure SNMP agent settings."
-msgstr "Да данной странице можно выполнить конфигурацию SNMP агента."
+msgstr "На данной странице можно выполнить конфигурацию SNMP агента."
 
 #: luasrc/model/cbi/snmpd-tn/snmpd.lua:59
 msgid "Only IPv4"
