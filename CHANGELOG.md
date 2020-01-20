@@ -13,6 +13,7 @@ All dates in this document are in `DD.MM.YYYY` format.
 
 ### Changed
 - Moved some functions from CBI model code to module 'luci.tools.snmpd-tn'.
+- Removed useless ucitrack definitions
 
 ## [Version 0.9.0] (22.01.2019)
 
