@@ -5,7 +5,7 @@ This is an alternate application for SNMP daemon configuration from LuCI web UI.
 
 ## Dependencies and Limitations
 This LuCI application developed for LuCI 18.06 branch. For SNMPv3 support you need
-to use customized snmpd init script from [meta-tano-openwrt](https://github.com/tano-systems/meta-tano-openwrt.git) OpenEmbedded layer.
+to use customized snmpd init script from [meta-tanowrt](https://github.com/tano-systems/meta-tanowrt.git) OpenEmbedded layer.
 
 ## Supported languages
 - English
