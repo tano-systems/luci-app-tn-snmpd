@@ -8,6 +8,9 @@ All dates in this document are in `DD.MM.YYYY` format.
 
 ## [Unreleased]
 
+### Added
+- Allow to hide footer by UCI option 'luci.app_tn_snmpd.hide_footer'
+
 ### Fixed
 - Minor fixes for Russian translation.
 

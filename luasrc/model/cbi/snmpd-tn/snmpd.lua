@@ -415,7 +415,10 @@ o.remove = snmpd_sys_remove
 
 -----------------------------------------------------------------------------------
 
-m:section(SimpleSection, nil).template = "snmpd-tn/footer"
+local hide_footer = m.uci:get_bool("luci", "app_tn_snmpd", "hide_footer") or false
+if hide_footer == false then
+	m:section(SimpleSection, nil).template = "snmpd-tn/footer"
+end
 
 -----------------------------------------------------------------------------------
 
