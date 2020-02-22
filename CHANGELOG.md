@@ -13,6 +13,7 @@ All dates in this document are in `DD.MM.YYYY` format.
 
 ### Fixed
 - Minor fixes for Russian translation.
+- Added translation contexts for some strings.
 
 ### Changed
 - Moved some functions from CBI model code to module 'luci.tools.snmpd-tn'.

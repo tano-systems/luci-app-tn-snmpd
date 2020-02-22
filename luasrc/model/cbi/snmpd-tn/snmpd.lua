@@ -22,7 +22,7 @@ s.addremove = false
 s:tab("global", translate("Global"))
 s:tab("v1v2c", translate("SNMPv1/SNMPv2c"))
 s:tab("v3", translate("SNMPv3"))
-s:tab("traps", translate("Traps"))
+s:tab("traps", translate("Traps", "SNMP"))
 s:tab("system", translate("System"))
 
 -----------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ local mib_file = uci:get("luci_snmpd_tn", "snmpd_tn", "download_mib")
 if mib_file and nixio.fs.access(mib_file) then
 	mib = s:taboption("global", Button, "__download")
 	mib.title      = translate("MIB download")
-	mib.inputtitle = translate("Download")
+	mib.inputtitle = translate("Download", "Download data (action)")
 	mib.inputstyle = "action"
 	mib.template   = "snmpd-tn/button_download"
 	mib.href       = luci.dispatcher.build_url("admin", "services", "snmpd", "mib_download")
