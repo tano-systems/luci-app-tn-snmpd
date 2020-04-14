@@ -1,0 +1,11 @@
+{
+	"luci-app-tn-snmpd": {
+		"description": "Grant UCI access for luci-app-tn-snmpd",
+		"read": {
+			"uci": [ "snmpd", "luci" ]
+		},
+		"write": {
+			"uci": [ "snmpd" ]
+		}
+	}
+}
