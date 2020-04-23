@@ -7,8 +7,8 @@ module("luci.tools.snmpd-tn", package.seeall)
 
 local uci = require("luci.model.uci").cursor()
 
-local app_version = "0.9.0"
-local app_home = "https://github.com/tano-systems/luci-app-snmpd-tn"
+local app_version = "1.0.0"
+local app_home = "https://github.com/tano-systems/luci-app-tn-snmpd"
 
 function version()
 	return app_version
