@@ -696,6 +696,80 @@ return L.view.extend({
 		o.remove = snmpd_sys_remove;
 	},
 
+	/** @private */
+	populateLogSettings: function(tab, s, data) {
+		// -------------------------------------------------------------------
+		// 
+		// Logging
+		// 
+		// -------------------------------------------------------------------
+		var o;
+
+		// File logging
+		o = s.taboption(tab, form.Flag, 'log_file',
+			_('Enable logging to file'));
+		o.default = '0';
+		o.rmempty = false;
+		o.optional = false;
+
+		o = s.taboption(tab, form.Value, 'log_file_path',
+			_('Path to log file'));
+		o.default = '/var/log/snmpd.log';
+		o.rmempty = false;
+		o.placeholder = '/var/log/snmpd.log';
+		o.depends('log_file', '1');
+
+		o = s.taboption(tab, form.ListValue, 'log_file_priority',
+			_('Priority for file logging'),
+			_('Will log messages of selected priority and above.'));
+		o.default = 'i';
+		o.value('!', 'LOG_EMERG');
+		o.value('a', 'LOG_ALERT');
+		o.value('c', 'LOG_CRIT');
+		o.value('e', 'LOG_ERR');
+		o.value('w', 'LOG_WARNING');
+		o.value('n', 'LOG_NOTICE');
+		o.value('i', 'LOG_INFO');
+		o.value('d', 'LOG_DEBUG');
+		o.depends('log_file', '1');
+
+		// Syslog
+		o = s.taboption(tab, form.Flag, 'log_syslog',
+			_('Enable logging to syslog'));
+		o.default = '0';
+		o.rmempty = false;
+		o.optional = false;
+
+		o = s.taboption(tab, form.ListValue, 'log_syslog_facility',
+			_('Syslog facility'));
+		o.default = 'i';
+		o.value('d', 'LOG_DAEMON');
+		o.value('u', 'LOG_USER');
+		o.value('0', 'LOG_LOCAL0');
+		o.value('1', 'LOG_LOCAL1');
+		o.value('2', 'LOG_LOCAL2');
+		o.value('3', 'LOG_LOCAL3');
+		o.value('4', 'LOG_LOCAL4');
+		o.value('5', 'LOG_LOCAL5');
+		o.value('6', 'LOG_LOCAL6');
+		o.value('7', 'LOG_LOCAL7');
+		o.depends('log_syslog', '1');
+
+		o = s.taboption(tab, form.ListValue, 'log_syslog_priority',
+			_('Priority for syslog logging'),
+			_('Will log messages of selected priority and above.'));
+		o.default = 'i';
+		o.value('!', 'LOG_EMERG');
+		o.value('a', 'LOG_ALERT');
+		o.value('c', 'LOG_CRIT');
+		o.value('e', 'LOG_ERR');
+		o.value('w', 'LOG_WARNING');
+		o.value('n', 'LOG_NOTICE');
+		o.value('i', 'LOG_INFO');
+		o.value('d', 'LOG_DEBUG');
+		o.depends('log_syslog', '1');
+	},
+
 	render: function(data) {
 		var m, s, o;
 
@@ -712,12 +786,14 @@ return L.view.extend({
 		s.tab('v3',     _('SNMPv3'));
 		s.tab('traps',  _('Traps', 'SNMP'));
 		s.tab('system', _('System'));
+		s.tab('log',    _('Logging'));
 
 		this.populateGlobalSettings ('global', s, data);
 		this.populateV1V2CSettings  ('v1v2c',  s, data);
 		this.populateV3Settings     ('v3',     s, data);
 		this.populateTrapsSettings  ('traps',  s, data);
 		this.populateSystemSettings ('system', s, data);
+		this.populateLogSettings    ('log',    s, data);
 
 		return m.render();
 	},

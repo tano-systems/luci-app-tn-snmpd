@@ -7,8 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 All dates in this document are in `DD.MM.YYYY` format.
 
 ## [Unreleased]
-
-*Nothing yet*
+### Added
+- Added "Logging" tab for logging confguration.
 
 ## [Version 2.0.0] (24.04.2020)
 ### Changed
