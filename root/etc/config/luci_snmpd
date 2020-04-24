@@ -1,0 +1,2 @@
+config snmpd 'snmpd'
+	option download_mib '/usr/share/snmp/mibs/CUSTOM-MIB.txt'
