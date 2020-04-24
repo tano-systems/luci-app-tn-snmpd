@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: luci-app-snmpd-tn\n"
-"PO-Revision-Date: 2019-06-05 22:22+0300\n"
+"Project-Id-Version: luci-app-tn-snmpd\n"
+"PO-Revision-Date: 2020-04-24 04:02+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
 "Language-Team: none\n"
 "Language: ru\n"
@@ -10,266 +10,262 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"POT-Creation-Date: \n"
+"POT-Creation-Date: 2019-01-14 01:23+0300\n"
 "X-Generator: Poedit 2.2\n"
 
-#: luasrc/view/snmpd-tn/footer.htm:9
-msgid ""
-"&copy; 2018&ndash;2019, Tano Systems, Anton Kikin &lt;<a href=\"mailto:a."
-"kikin@tano-systems.com\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
-msgstr ""
-"&copy; 2018&ndash;2019, Tano Systems, Антон Кикин &lt;<a href=\"mailto:a."
-"kikin@tano-systems.com\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
-
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:287
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:577
 msgid "AES"
 msgstr "AES"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:162
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:451
 msgid "AgentX socket path"
 msgstr "Путь к сокету AgentX"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:266
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:553
 msgid "Allow write"
 msgstr "Разрешить запись"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:338
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:646
 msgid "Community"
 msgstr "SNMP сообщество"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:403
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:687
 msgid "Contact"
 msgstr "Контакт"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:288
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:578
 msgid "DES"
 msgstr "DES"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:40
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:313
 msgctxt "Download data (action)"
-msgid "Download"
-msgstr "Скачать"
+msgid "Download (%1024.2mB)"
+msgstr "Скачать (%1024.2mБ)"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:163
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:452
 msgid "Empty for disable AgentX"
 msgstr "Если не задано, AgentX будет отключен"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:48
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:332
 msgid "Enable SNMP service"
 msgstr "Включить службу SNMP"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:311
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:605
 msgid "Enable SNMP trap functionality"
 msgstr "Включить функционал SNMP трапов"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:310
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:604
 msgid "Enable SNMP traps"
 msgstr "Включить SNMP трапы"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:22
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:710
 msgid "Global"
 msgstr "Глобальные"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:325
+#: root/usr/share/rpcd/acl.d/luci-app-tn-snmpd.json:3
+msgid "Grant access to SNMP configuration"
+msgstr "Предоставить доступ к конфигурации SNMP"
+
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:631
 msgid "Host to transfer SNMP trap traffic to (hostname or IP address)"
 msgstr "Адрес хоста назначения для отправки трапов (имя хоста или IP-адрес)"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:324
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:630
 msgid "Host/IP"
 msgstr "Хост/IP-адрес"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:59
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:356
 msgid "IP version"
 msgstr "Версия IP-протокола"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:62
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:359
 msgid "IPv4 and IPv6"
 msgstr "IPv4 и IPv6"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:410
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:693
 msgid "Location"
 msgstr "Расположение"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:274
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:562
 msgid "MD5"
 msgstr "MD5"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:39
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:312
 msgid "MIB download"
 msgstr "Скачать MIB файл"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:396
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:681
 msgid "Name"
 msgstr "Имя"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:15
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:704
 msgid "On this page you may configure SNMP agent settings."
 msgstr "На данной странице можно выполнить конфигурацию SNMP агента."
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:60
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:357
 msgid "Only IPv4"
 msgstr "Только IPv4"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:61
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:358
 msgid "Only IPv6"
 msgstr "Только IPv6"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:150
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:447
 msgid "Only SNMPv3"
 msgstr "Только SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:89
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:331
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:394
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:638
 msgid "Port"
 msgstr "Порт"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:332
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:639
 msgid "Port for trap's host"
 msgstr "Порт для отправки трапов"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:207
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:487
 msgid "Read community"
 msgstr "SNMP сообщество для чтения"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:212
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:492
 msgid "Read community source"
 msgstr "Источник SNMP сообщества для чтения"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:49
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:333
 msgid "Run SNMP service on system's startup"
 msgstr "Запускать службу SNMP при запуске системы"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:273
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:561
 msgid "SHA"
 msgstr "SHA"
 
-#: luasrc/controller/snmpd-tn.lua:9
+#: root/usr/share/luci/menu.d/luci-app-tn-snmpd.json:3
 msgid "SNMP"
 msgstr "SNMP"
 
-#: luasrc/view/snmpd-tn/footer.htm:8
+#: htdocs/luci-static/resources/snmpd.js:14
 msgid "SNMP LuCI application (version %s)"
 msgstr "LuCI приложение настройки SNMP (версия %s)"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:14
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:703
 msgid "SNMP Settings"
 msgstr "Настройки SNMP"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:317
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:622
 msgid "SNMP traps version"
 msgstr "Версия SNMP трапов"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:143
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:440
 msgid "SNMP version"
 msgstr "Версия SNMP"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:318
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:623
 msgid "SNMP version used for sending traps"
 msgstr "Используемая версия SNMP для отправки трапов"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:144
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:441
 msgid "SNMP version used to monitor and control the device"
 msgstr "Используемая версия SNMP для мониторинга и управления устройством"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:148
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:445
 msgid "SNMPv1 and SNMPv2c"
 msgstr "SNMPv1 и SNMPv2c"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:149
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:446
 msgid "SNMPv1, SNMPv2c and SNMPv3"
 msgstr "SNMPv1, SNMPv2c и SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:23
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:711
 msgid "SNMPv1/SNMPv2c"
 msgstr "SNMPv1/SNMPv2c"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:24
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:712
 msgid "SNMPv3"
 msgstr "SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:279
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:568
 msgid "SNMPv3 authentication passphrase"
 msgstr "Пароль аутентификации SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:271
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:559
 msgid "SNMPv3 authentication type"
 msgstr "Тип аутентификации SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:293
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:584
 msgid "SNMPv3 encryption passphrase"
 msgstr "Пароль шифрования SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:285
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:575
 msgid "SNMPv3 encryption type"
 msgstr "Тип шифрования SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:260
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:546
 msgid "SNMPv3 username"
 msgstr "Имя пользователя SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:261
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:547
 msgid "Set username to access SNMP"
 msgstr "Имя пользователя SNMPv3"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:118
-msgid "Specified port number is already in use"
-msgstr "Указанный номер порта уже используется"
-
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:26
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:714
 msgid "System"
 msgstr "Система"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:404
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:687
 msgid "System contact"
 msgstr "Контакт системы"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:411
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:693
 msgid "System location"
 msgstr "Расположение системы"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:397
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:681
 msgid "System name"
 msgstr "Имя системы"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:339
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:647
 msgid "The SNMP community for traps"
 msgstr "SNMP сообщество для трапов"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:25
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:713
 msgctxt "SNMP"
 msgid "Traps"
 msgstr "Трапы"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:213
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:493
 msgid ""
-"Trusted source for SNMP read community access (hostname, IP/MASK, IP/BITS or "
-"IPv6 equivalents)"
+"Trusted source for SNMP read community access (hostname, IP/MASK, IP/BITS or IPv6 "
+"equivalents)"
 msgstr ""
-"Доверенный источник SNMP сообщества для чтения (имя хоста, IP-адрес/маска, "
-"IP-адрес/биты или эквиваленты для IPv6)"
+"Доверенный источник SNMP сообщества для чтения (имя хоста, IP-адрес/маска, IP-адрес/"
+"биты или эквиваленты для IPv6)"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:237
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:517
 msgid ""
-"Trusted source for SNMP write community access (hostname, IP/MASK, IP/BITS "
-"or IPv6 equivalents)"
+"Trusted source for SNMP write community access (hostname, IP/MASK, IP/BITS or IPv6 "
+"equivalents)"
 msgstr ""
-"Доверенный источник SNMP сообщества для записи (имя хоста, IP-адрес/маска, "
-"IP-адрес/биты или эквиваленты для IPv6)"
+"Доверенный источник SNMP сообщества для записи (имя хоста, IP-адрес/маска, IP-адрес/"
+"биты или эквиваленты для IPv6)"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:231
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:511
 msgid "Write community"
 msgstr "SNMP сообщество для записи"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:236
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:516
 msgid "Write community source"
 msgstr "Источник SNMP сообщества для записи"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:214
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:238
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:494
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:518
 msgid "any (default)"
 msgstr "любой (default)"
 
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:272
-#: luasrc/model/cbi/snmpd-tn/snmpd.lua:286
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:560
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:576
 msgid "none"
 msgstr "нет"
+
+#: htdocs/luci-static/resources/snmpd.js:16
+msgid "© 2019–2020, Tano Systems LLC, Anton Kikin"
+msgstr "© 2019–2020, ООО «Тано Системс», Антон Кикин"
