@@ -34,3 +34,6 @@ For SNMPv3 support you need to use customized snmpd procd init script from [meta
 
 ### SNMP System Settings
 ![SNMP System Settings](screenshots/luci-app-tn-snmpd-system.png?raw=true "SNMP System Settings")
+
+### SNMP Logging Settings
+![SNMP Logging Settings](screenshots/luci-app-tn-snmpd-logging.png?raw=true "SNMP Logging Settings")
