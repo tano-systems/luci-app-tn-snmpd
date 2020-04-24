@@ -47,11 +47,23 @@ msgid "Enable SNMP traps"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:710
+msgid "Enable logging to file"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:738
+msgid "Enable logging to syslog"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:784
 msgid "Global"
 msgstr ""
 
 #: root/usr/share/rpcd/acl.d/luci-app-tn-snmpd.json:3
 msgid "Grant access to SNMP configuration"
+msgstr ""
+
+#: root/usr/share/rpcd/acl.d/luci-app-tn-snmpd.json:23
+msgid "Grant access to view SNMP log"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:631
@@ -74,6 +86,10 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:789
+msgid "Logging"
+msgstr ""
+
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:562
 msgid "MD5"
 msgstr ""
@@ -82,11 +98,15 @@ msgstr ""
 msgid "MIB download"
 msgstr ""
 
+#: htdocs/luci-static/resources/logview/plugins/snmp.js:27
+msgid "Message"
+msgstr ""
+
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:681
 msgid "Name"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/snmpd/snmpd.js:704
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:778
 msgid "On this page you may configure SNMP agent settings."
 msgstr ""
 
@@ -102,6 +122,10 @@ msgstr ""
 msgid "Only SNMPv3"
 msgstr ""
 
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:716
+msgid "Path to log file"
+msgstr ""
+
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:394
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:638
 msgid "Port"
@@ -109,6 +133,14 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:639
 msgid "Port for trap's host"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:723
+msgid "Priority for file logging"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:759
+msgid "Priority for syslog logging"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:487
@@ -131,11 +163,15 @@ msgstr ""
 msgid "SNMP"
 msgstr ""
 
+#: htdocs/luci-static/resources/logview/plugins/snmp.js:4
+msgid "SNMP Log"
+msgstr ""
+
 #: htdocs/luci-static/resources/snmpd.js:14
 msgid "SNMP LuCI application (version %s)"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/snmpd/snmpd.js:703
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:777
 msgid "SNMP Settings"
 msgstr ""
 
@@ -163,11 +199,11 @@ msgstr ""
 msgid "SNMPv1, SNMPv2c and SNMPv3"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/snmpd/snmpd.js:711
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:785
 msgid "SNMPv1/SNMPv2c"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/snmpd/snmpd.js:712
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:786
 msgid "SNMPv3"
 msgstr ""
 
@@ -195,7 +231,11 @@ msgstr ""
 msgid "Set username to access SNMP"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/snmpd/snmpd.js:714
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:744
+msgid "Syslog facility"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:788
 msgid "System"
 msgstr ""
 
@@ -215,7 +255,7 @@ msgstr ""
 msgid "The SNMP community for traps"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/snmpd/snmpd.js:713
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:787
 msgctxt "SNMP"
 msgid "Traps"
 msgstr ""
@@ -230,6 +270,11 @@ msgstr ""
 msgid ""
 "Trusted source for SNMP write community access (hostname, IP/MASK, IP/BITS "
 "or IPv6 equivalents)"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:724
+#: htdocs/luci-static/resources/view/snmpd/snmpd.js:760
+msgid "Will log messages of selected priority and above."
 msgstr ""
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:511
@@ -251,5 +296,5 @@ msgid "none"
 msgstr ""
 
 #: htdocs/luci-static/resources/snmpd.js:16
-msgid "© 2018–2020, Tano Systems LLC, Anton Kikin"
+msgid "© 2019–2020, Tano Systems LLC, Anton Kikin"
 msgstr ""
