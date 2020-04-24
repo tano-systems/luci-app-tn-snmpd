@@ -7,8 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 All dates in this document are in `DD.MM.YYYY` format.
 
 ## [Unreleased]
+
+*Nothing yet*
+
+## [Version 2.1.0] (24.04.2020)
 ### Added
-- Added "Logging" tab for logging confguration.
+- Added "Logging" tab for logging configuration.
 - Added plugin for [luci-app-tn-logview](https://github.com/tano-systems/luci-app-tn-logview).
 
 ## [Version 2.0.0] (24.04.2020)
@@ -32,6 +36,7 @@ All dates in this document are in `DD.MM.YYYY` format.
 Initial release
 
 [Unreleased]: https://github.com/tano-systems/luci-app-snmpd-tn/tree/master
+[Version 2.1.0]: https://github.com/tano-systems/luci-app-snmpd-tn/releases/tag/v2.1.0
 [Version 2.0.0]: https://github.com/tano-systems/luci-app-snmpd-tn/releases/tag/v2.0.0
 [Version 1.0.0]: https://github.com/tano-systems/luci-app-snmpd-tn/releases/tag/v1.0.0
 [Version 0.9.0]: https://github.com/tano-systems/luci-app-snmpd-tn/releases/tag/v0.9.0
