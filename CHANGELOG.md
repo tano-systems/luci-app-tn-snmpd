@@ -9,6 +9,7 @@ All dates in this document are in `DD.MM.YYYY` format.
 ## [Unreleased]
 ### Added
 - Added "Logging" tab for logging confguration.
+- Added plugin for [luci-app-tn-logview](https://github.com/tano-systems/luci-app-tn-logview).
 
 ## [Version 2.0.0] (24.04.2020)
 ### Changed
