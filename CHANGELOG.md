@@ -8,7 +8,8 @@ All dates in this document are in `DD.MM.YYYY` format.
 
 ## [Unreleased]
 
-*Nothing yet*
+### Removed
+- Removed plugin sources for [luci-app-tn-logview](https://github.com/tano-systems/luci-app-tn-logview).
 
 ## [Version 2.1.0] (24.04.2020)
 ### Added
