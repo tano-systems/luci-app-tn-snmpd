@@ -74,10 +74,6 @@ msgstr "Глобальные"
 msgid "Grant access to SNMP configuration"
 msgstr "Предоставить доступ к конфигурации SNMP"
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-snmpd.json:23
-msgid "Grant access to view SNMP log"
-msgstr "Предоставить доступ к просмотру журнала SNMP"
-
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:631
 msgid "Host to transfer SNMP trap traffic to (hostname or IP address)"
 msgstr "Адрес хоста назначения для отправки трапов (имя хоста или IP-адрес)"
@@ -109,10 +105,6 @@ msgstr "MD5"
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:312
 msgid "MIB download"
 msgstr "Скачать MIB файл"
-
-#: htdocs/luci-static/resources/logview/plugins/snmp.js:27
-msgid "Message"
-msgstr "Сообщение"
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:681
 msgid "Name"
@@ -174,10 +166,6 @@ msgstr "SHA"
 #: root/usr/share/luci/menu.d/luci-app-tn-snmpd.json:3
 msgid "SNMP"
 msgstr "SNMP"
-
-#: htdocs/luci-static/resources/logview/plugins/snmp.js:4
-msgid "SNMP Log"
-msgstr "Журнал SNMP"
 
 #: htdocs/luci-static/resources/snmpd.js:14
 msgid "SNMP LuCI application (version %s)"
@@ -274,19 +262,19 @@ msgstr "Трапы"
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:493
 msgid ""
-"Trusted source for SNMP read community access (hostname, IP/MASK, IP/BITS or IPv6 "
-"equivalents)"
+"Trusted source for SNMP read community access (hostname, IP/MASK, IP/BITS or "
+"IPv6 equivalents)"
 msgstr ""
-"Доверенный источник SNMP сообщества для чтения (имя хоста, IP-адрес/маска, IP-адрес/"
-"биты или эквиваленты для IPv6)"
+"Доверенный источник SNMP сообщества для чтения (имя хоста, IP-адрес/маска, "
+"IP-адрес/биты или эквиваленты для IPv6)"
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:517
 msgid ""
-"Trusted source for SNMP write community access (hostname, IP/MASK, IP/BITS or IPv6 "
-"equivalents)"
+"Trusted source for SNMP write community access (hostname, IP/MASK, IP/BITS "
+"or IPv6 equivalents)"
 msgstr ""
-"Доверенный источник SNMP сообщества для записи (имя хоста, IP-адрес/маска, IP-адрес/"
-"биты или эквиваленты для IPv6)"
+"Доверенный источник SNMP сообщества для записи (имя хоста, IP-адрес/маска, "
+"IP-адрес/биты или эквиваленты для IPv6)"
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:724
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:760

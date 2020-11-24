@@ -62,10 +62,6 @@ msgstr ""
 msgid "Grant access to SNMP configuration"
 msgstr ""
 
-#: root/usr/share/rpcd/acl.d/luci-app-tn-snmpd.json:23
-msgid "Grant access to view SNMP log"
-msgstr ""
-
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:631
 msgid "Host to transfer SNMP trap traffic to (hostname or IP address)"
 msgstr ""
@@ -96,10 +92,6 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:312
 msgid "MIB download"
-msgstr ""
-
-#: htdocs/luci-static/resources/logview/plugins/snmp.js:27
-msgid "Message"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/snmpd/snmpd.js:681
@@ -161,10 +153,6 @@ msgstr ""
 
 #: root/usr/share/luci/menu.d/luci-app-tn-snmpd.json:3
 msgid "SNMP"
-msgstr ""
-
-#: htdocs/luci-static/resources/logview/plugins/snmp.js:4
-msgid "SNMP Log"
 msgstr ""
 
 #: htdocs/luci-static/resources/snmpd.js:14
